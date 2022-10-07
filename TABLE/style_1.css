@@ -42,3 +42,9 @@ body {
 .table tbody tr:last-child td:last-child {
 	border-radius: 0 0 20px 0;
 }
+.button{
+    background: linear-gradient(135deg, #FCCF31 10%, #F55555 100%);
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    font-size: x-large;
+}
