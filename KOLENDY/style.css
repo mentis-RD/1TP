@@ -1,0 +1,72 @@
+ul{
+    position: absolute;
+    width: 300px;
+    bottom: 15%;
+    background-image: url(1.jpg);
+    padding: 15px;
+    border-radius: 20px;
+    background-size: 100%;
+}
+body{
+    background-image: url(https://klike.net/uploads/posts/2019-12/1575636862_9.jpg);
+    background-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    padding: 5px;
+    list-style-type: none;
+    font-size: 18;
+}
+.button1{
+    border: none;
+    background-color:bisque;
+    border-radius: 20px;
+    padding: 15px;
+    width: 280px;
+
+}
+
+.texta{
+    background-image: url(3.jpg);
+    right: 32%;    
+    position: absolute;
+    padding: 5px;
+    border-radius: 20px;
+    width: 500px;
+    font-size: 16;
+    background-size: 100%;
+    min-height: 700px;
+}
+p{
+    text-align: center;
+}
+#div1{
+    display: none;
+}
+#div2{
+    display: none;
+}
+#div3{
+    display: none;
+}
+#div4{
+    display: none;
+}
+#div5{
+    display: none;
+}
+#div6{
+    display: none;
+}
+#div7{
+    display: none;
+}
+#div8{
+    display: none;
+}
+#div9{
+    display: none;
+}
+#div10{
+    display: none;
+}
