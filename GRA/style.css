@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+body {
+    font-family: Open Sans, Helvetica, sans-serif;
+    background-image: url("mini.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+  }
+.block_1{
+    background: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(10px);
+    width: 43%;
+    height: 60%;
+    border-radius: 20px;
+    position: absolute;
+    padding: 30px;
+    left: 1%;
+    top: 3%;
+}
+.block_2{
+    background: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(10px);
+    width: 43%;
+    height: 10%;
+    border-radius: 20px;
+    position: absolute;
+    padding: 30px;
+    left: 1%;
+    top: 78%;
+}
+.block_1_inf{
+    width: 43%;
+    height: 85%;
+    position: absolute;
+}
+.img_logo{
+    width: 95%;
+    height: 70%;
+    position: relative;
+}
+.block_1_text{
+    position: relative;
+    left: 100%;
+    bottom: 76.5%;
+    font-size: 1.2rem;
+}
+span{
+    font-weight: 800;
+}
+.block_1_link img {
+    position: relative;
+	height: 5em;
+    bottom: 60%;
+    left: 15%;
+}
+.block_1_mark {
+    position: relative;
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 700;
+	background-color: #6c3;
+	text-align: center;
+	border-radius: .5rem;
+	width: calc(60em / 32);
+	height: calc(60em / 32);
+	line-height: calc(60em / 32);
+    bottom: 78%;
+    left: 135%;
+}
+.block_3{
+    background: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(10px);
+    width: 43%;
+    height: 550%;
+    border-radius: 20px;
+    position: absolute;
+    padding: 30px;
+    left: 52%;
+    top: 3%;
+}
+.minec{
+    height: 5.5em;
+}
+.block_2_text{
+    position: relative;
+    left: 1%;
+    font-size: 1.2rem;
+}
+.img1 {
+    width: 85%;
+    height: 7.2%;
+}
+@media (min-width: 998px) {
+	:link {
+		transition: .3s;
+	}
+
+	:link:hover {
+		opacity: .7;
+	}
