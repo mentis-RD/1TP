@@ -1,7 +1,7 @@
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #fbb034;
-  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
 }
 .text1{
   font-size: 25px;
@@ -19,8 +19,9 @@ table{
     height: 125%;
     max-height:700px;
     border-collapse: collapse;
-    background-color: #00b712;
-    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    
+background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 
 }
 tr,th,td{
