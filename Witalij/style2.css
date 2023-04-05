@@ -1,0 +1,44 @@
+body{
+background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+font-family: Open Sans, Helvetica, sans-serif;
+min-height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1{
+    color: bisque;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50;
+}
+h2{
+    color: bisque;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35;
+}
+p{
+    color: bisque;
+    text-align:left;
+    font-weight: bold;
+    font-size: 25;
+}
+.O{
+    
+    width: 800px;
+    margin: 0px;
+}
+.img1{
+    position: absolute;
+    width: 300px;
+    left: 70%;
+    top: 23%;
+}
+li{
+    color: bisque;
+    text-align:left;
+    font-weight: bold;
+    font-size: 25;
+}

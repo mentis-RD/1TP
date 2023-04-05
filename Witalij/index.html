@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mój ulubiony sport</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+                <div class="menu"><div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div><p id="menu1" class="menu1">MENU</p><p id="head1" class="head1"><a href="vitalii.html" >ㅤSPORTOWECㅤㅤ</a><a href="film.html">FILM</a></p></div>
+        </header>
+
+        <div class="block_1">
+            <p class="block_1_h">Co to jest boks?</p>
+            <p class="block_1_text">Boks, inaczej pięściarstwo, to sport walki, w którym dwóch zawodników walczy ze sobą wyłącznie przy użyciu pięści. To jedna z najstarszych sztuk walki, znana już w starożytnej Grecji i Cesarstwie Rzymskim.
+
+                Początkowo boks był sportem bardzo brutalnym. Choć na początku XVIII wieku w Anglii wprowadzono różne zmiany, walka wciąż odbywała się na gołe pięści. Kończono ją, gdy przeciwnik nie był w stanie jej kontynuować. Zmiany wprowadzono dopiero w 1743 roku, a w drugiej połowie XIX wieku pojawiły się rękawice. Spisano także normy i zasady.</p>
+        </div>
+        <div class="block_3">
+            <p class="block_2_h">Zasady walki bokserskiej</p>
+            <p class="block_2_text">W boksie nie można nie tylko kopać, ale i:
+                <ul>
+                <li>uderzać poniżej pasa</li>
+                <li>przytrzymywać</li>
+                <li>popychać, szarpać</li>
+                <li>uderzać głową, ramieniem, łokciem</li>
+                <li>uderzać otwartą rękawicą, przegubem</li>
+                <li>uderzać w plecy, tył głowy, nerki</li>
+                <li>zadawać ciosów opierając się na linach, wykorzystując element dźwigni</li>
+                <li>przytrzymywać przeciwnika przy jednoczesnym zadawaniu ciosów</li>
+                </ul>
+            </p>
+        </div>
+        <script>
+            function myFunction(x) {
+              x.classList.toggle("change");
+              const heas2 = document.getElementById("menu1");
+              if (heas2.style.display == 'none') {
+                document.getElementById("menu1").style.display = "inline-block";}
+                else {
+                    document.getElementById("menu1").style.display = "none";
+                }
+              const heas1 = document.getElementById("head1");
+              if (heas1.style.display == 'inline-block') {
+                document.getElementById("head1").style.display = "none";}
+                else {
+                    document.getElementById("head1").style.display = "inline-block";
+                }
+                const heas3 = document.getElementById("head2");
+              if (heas3.style.display == 'inline-block') {
+                document.getElementById("head2").style.display = "none";}
+                else {
+                    document.getElementById("head2").style.display = "inline-block";
+                }
+            }
+            </script>
+    </body>
+</html>
