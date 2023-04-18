@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div1{
+    height: 15%;
+    width: 100%;
+    background-color: bisque;
+    border-radius: 5px;
+    position: relative;
+}
+.div2{
+    right: 1%;
+    height: 65%;
+    background-color: bisque;
+    width: 12%;
+    border-radius: 5px;
+    top: 5%;
+    position: relative;
+}
+.div3{
+    position:absolute;
+    top: 20%;
+    right: 15%;
+    width: 60%;
+    height: 65%;
+}
+h1{
+    text-align: center;
+}
+p{
+    color: aliceblue;
+}
+a{
+    color: black;
+}
