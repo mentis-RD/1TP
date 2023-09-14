@@ -17,7 +17,7 @@ li{
     list-style-type: none;
     font-size: 18;
 }
-.button1{
+button{
     border: none;
     background-color:bisque;
     border-radius: 20px;
