@@ -1,0 +1,247 @@
+@import url('https://fonts.cdnfonts.com/css/ubuntu-title');
+body {
+    margin: 0;
+    font-family: 'Ubuntu-Title';
+    background-color: #f0f1f3;
+  }
+  .test{
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 0px 100px 70px rgba(169,180,203,.2), -3px -3px 4px #fff, 0px 3px 0px #d6dadf, inset 0px -20px 20px rgba(255,255,255,.2);
+    position: relative;
+    padding: 20px;
+    height: 378px;
+    transition: all 0.25s linear;
+  }
+  .test:hover{
+    transform: scale(1.2,1.2);
+  }
+  .test-review{
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 0px 100px 70px rgba(169,180,203,.2), -3px -3px 4px #fff, 0px 3px 0px #d6dadf, inset 0px -20px 20px rgba(255,255,255,.2);
+    position: relative;
+    padding: 20px;
+    height: 320px;
+    transition: all 0.25s linear;
+  }
+  .test_video{
+    width: 720px;
+    height: 576px;
+    border-radius: 16px;
+    box-shadow: 0px 100px 70px rgba(169,180,203,.2), -3px -3px 4px #fff, 0px 3px 0px #d6dadf, inset 0px -20px 20px rgba(255,255,255,.2);
+    position: relative;
+    padding: 20px;
+    margin: auto;
+  }
+  iframe{
+    border-radius: 16px;
+  }
+  .parallax-container-index {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url(../img/8247570_3846574.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+    text-align: center;
+  }
+  .parallax-container-beach {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url(../img/8940571_4048260.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+    text-align: center;
+  }
+  .parallax-container-mountain {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url(../img/5481305_2844240.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+    text-align: center;
+  }
+  .parallax-container-nat {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url(../img/16369149_Deer.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+    text-align: center;
+  }
+  .h1-index {
+    font-size: 6rem;
+    font-weight: 1500;
+    position: absolute;
+    color: #fbdd8b;
+    font-family: 'Ubuntu-Title';
+    top: 37%;
+  }
+  .h1-beach {
+    font-size: 6rem;
+    font-weight: 1500;
+    position: absolute;
+    color: #04388f;
+    font-family: 'Ubuntu-Title';
+    top: 37%;
+  }
+  .h1-mountain {
+    font-size: 6rem;
+    font-weight: 1500;
+    position: absolute;
+    color: #83635b;
+    font-family: 'Ubuntu-Title';
+    top: 37%;
+  }
+  .h1-nat {
+    font-size: 6rem;
+    font-weight: 1500;
+    position: absolute;
+    color: #3b3cb0;
+    font-family: 'Ubuntu-Title';
+    top: 37%;
+  }
+  .images{
+    display: flex;
+    justify-content:space-around;
+    height: 100%;
+  }
+  .buffer {
+    width: 100%;
+    min-height: 150vh;
+    background-color: #f0f1f3;
+  }
+  .buffer-beach {
+    width: 100%;
+    min-height: 400vh;
+    background-color: #f0f1f3;
+  }
+  .buffer-mountain {
+    width: 100%;
+    min-height: 355vh;
+    background-color: #f0f1f3;
+  }
+  .buffer-nat {
+    width: 100%;
+    min-height: 400vh;
+    background-color: #f0f1f3;
+  }
+  h2{
+    font-size: 6rem;
+    font-weight: 1500;
+    position: relative;
+    color: #0f1113;
+    font-family: 'Ubuntu-Title-fr';
+    text-align: center;
+  }
+  .text {
+    color: #0f1113;
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 30px;
+  }
+  .image_text{
+    color: #0f1113;
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  h3 {
+    margin-top: 1em;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 16px;
+    background: #f0f1f3;
+    height: 250px;
+  }
+  .video{
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    background-color: #111;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    box-shadow: 0px 0px 50px var(--primary);
+    transition: .7s ease-in-out;
+  }
+  
+  .header.hidden{
+    transform: translateY(-160%);
+  }
+  
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4em;
+    width: 100%;
+  }
+  .white{
+    color:#f0f1f3;
+    font-size: 3rem;
+    font-weight: 1500;
+  }
+  ul, li{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .avatar{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    padding-right: 2vh;
+  }
+  h3{
+    position: relative;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 400;
+    bottom: 7%;
+  }
+  .review_text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    position: relative;
+    bottom: 15%;
+  }
+  
